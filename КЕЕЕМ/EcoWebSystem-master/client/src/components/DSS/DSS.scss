@@ -1,0 +1,34 @@
+.dssModelsRadio {
+    background: #e1ebf3;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+
+.dssModels {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+
+.dssModels-header {
+    text-align: start;
+}
+
+
+.models__item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    label {
+        text-align: left;
+    }
+}

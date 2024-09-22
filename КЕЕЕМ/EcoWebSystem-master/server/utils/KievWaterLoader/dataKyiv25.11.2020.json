@@ -1,0 +1,70 @@
+{
+  "elements": {
+    "date": null,
+    "element": [
+      {
+        "code": null,
+        "date": null,
+        "elements": null,
+        "mesures": null,
+        "value": null
+      },
+      {
+        "elements": null
+      },
+      {
+        "elements": null
+      },
+      {
+        "elements": null
+      },
+      {
+        "elements": null
+      },
+      {
+        "elements": null
+      },
+      {
+        "elements": null
+      },
+      {
+        "elements": null
+      },
+      {
+        "elements": null
+      },
+      {
+        "elements": null
+      },
+      {
+        "id": 1271,
+        "environ": 2,
+        "code": [503, 0, 0, 21125, 505, 504, 506, 508, 507],
+        "date": ["44119"],
+        "elements": null,
+        "mesures": [
+          "мг/дм3",
+          "мгО2/дм3",
+          "мг/дм3",
+          "мгО2/дм3",
+          "мг/дм3",
+          "мг/дм3",
+          "мг/дм3",
+          "мг/дм3",
+          "мг/дм3"
+        ],
+        "value": [
+          "0.18",
+          "2",
+          "7.1",
+          "8.800000000000001",
+          "2.8",
+          "0.07",
+          "28.899999999999999",
+          "0.59",
+          "14.199999999999999"
+        ]
+      }
+    ]
+  }
+}

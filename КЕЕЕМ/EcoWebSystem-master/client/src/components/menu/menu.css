@@ -1,0 +1,15 @@
+.z-index{
+    z-index: 999;
+}
+
+
+.interactive-regime {
+    margin-right: 15px;
+}
+
+
+@media (min-width: 991px){
+    .menu_togler{
+        margin-left: auto;
+    }
+}

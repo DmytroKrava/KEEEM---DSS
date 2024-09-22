@@ -1,0 +1,13 @@
+.edit-pencil-icon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 4px;
+  right: 22px;
+  color: #c3c3c3;
+}
+
+.edit-pencil-icon:hover {
+  color: #999999;
+}

@@ -1,0 +1,17 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+
+.map-options {
+  background-color: #b0e8ef;
+  min-height: 40px;
+  max-height: 50px;
+}
+
+.sticky-button-wrapper {
+  position: absolute;
+  top: 5px;
+  left: calc(100% - 60px);
+  z-index: 600;
+}

@@ -1,0 +1,10 @@
+.adaptiveDateRange{
+    margin: auto
+}
+
+@media (max-width:360px){
+    .rdrMonth{
+        width: 100%;
+    }
+}
+

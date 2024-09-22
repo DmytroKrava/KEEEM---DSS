@@ -1,0 +1,31 @@
+.filtration-form {
+  display: grid;
+  grid-template-columns: auto 20px;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  max-width: 230px;
+  z-index: 1001;
+  position: fixed;
+  top: calc(100vh / 2);
+  left: 0;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 10px 10px;
+  padding-right: 0;
+  border: solid 3px grey; 
+  border-left: none;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: left;
+}
+
+.transLeft{
+  transform: translateY(-50%) translateX(calc(-100% + 20px));
+}
+
+@media screen and (max-width: 991px) {
+  .filtration-form {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+}

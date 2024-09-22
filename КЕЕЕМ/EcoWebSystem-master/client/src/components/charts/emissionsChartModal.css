@@ -1,0 +1,34 @@
+.emissions td,
+th {
+  max-width: 80px;
+  min-width: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.emissions-inner-table td th{
+  max-width: 80px;
+  min-width: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.emissions-inner-table th{
+  max-width: 80px;
+  min-width: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: #fff;
+}
+
+.emission-table-wraper{
+  overflow: scroll;
+  max-height: 400px;
+}

@@ -1,0 +1,85 @@
+.full-width-container {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.DSS-table {
+    margin-top: 80px;
+    overflow: auto;
+    th {
+        max-width: 200px;
+    }
+    tr {
+        > td {
+            &:first-child {
+                width: 200px;
+            }
+
+            &:last-child {
+                width: auto;
+                background: rgb(245, 245, 245);
+            }
+        }
+        &:nth-child(2) {
+            &:first-child {
+                width: 200px;
+            }
+
+            > th {
+                &:last-child {
+                    width: auto;
+                    background: rgb(245, 245, 245);
+                }
+            }
+        }
+    }
+    tfoot {
+        td {
+            &:first-child {
+                text-align: left;
+                font-weight: 700;
+            }
+        }
+        > tr {
+            &:nth-last-child(2) {
+                background: rgb(245, 245, 245);
+            }
+        }
+    }
+}
+
+
+.alternatives-header {
+    align-content: center;
+}
+
+
+.factors-header {
+    text-align: left;
+}
+
+
+.priority__row {
+    td {
+        background: #1AB3FF;
+    }
+}
+
+
+.priority__row__unactive {
+    display: none;
+}
+
+
+.plus-button {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.alternatives-statistic-button {
+    margin: 20px 0;
+}

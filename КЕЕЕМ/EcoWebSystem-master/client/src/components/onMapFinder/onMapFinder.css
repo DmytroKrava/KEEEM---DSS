@@ -1,0 +1,70 @@
+.MapFinderForm {
+  display: grid;
+  grid-template-columns: 20px calc(100% - 20px);
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  max-width: 230px;
+  z-index: 1001;
+  position: fixed;
+  top: calc(100vh / 2);
+  right: 0;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 10px 10px;
+  padding-left: 0;
+  border: solid 3px grey;
+  border-right: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: left;
+}
+
+.subBTN {
+  width: 900px;
+  max-width: 100%;
+  margin-top: 3px;
+}
+
+.smallCities {
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.transRight{
+  transform: translateY(-50%) translateX(calc(100% - 20px));
+}
+
+.tempWarning{
+  color: rgb(223, 56, 56);
+  animation: tempWarning;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-duration: 3s;
+}
+
+.tempWarningOff{
+  display: none;
+}
+
+@keyframes tempWarning{
+  0%{
+    transform: scaleY(0);
+  }
+  50%{
+    transform: scaleY(1);
+  }
+  100%{
+    transform: scaleY(0);
+  }
+} 
+
+
+@media screen and (max-width: 991px) {
+  .MapFinderForm {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+}

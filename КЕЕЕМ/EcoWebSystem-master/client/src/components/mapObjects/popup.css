@@ -1,0 +1,98 @@
+.edit-pencil-icon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 4px;
+  right: 22px;
+  color: #c3c3c3;
+}
+
+.compare-pencil-icon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 4px;
+  right: 40px;
+  color: #c3c3c3;
+}
+
+.compare-pencil-icon-active {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 4px;
+  right: 40px;
+  color: rgb(51, 202, 63);
+}
+
+.edit-pencil-icon:hover {
+  color: #999999;
+}
+
+.emissions-container{
+  width: 100%;
+}
+
+.emissions-table td,
+th {
+  max-width: 70px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.leaflet-popup-content-wrapper {
+  min-width: 120px;
+  max-width: 500px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.leaflet-control-layers-overlays{
+  max-width: 200px;
+  max-height: 200px;
+  overflow-y: scroll;
+  display: block;
+}
+
+.icon-wraper-grayscale{
+  filter: grayscale(1);
+}
+
+.wraper_icon{
+  height: 100%;
+  width: 100%; 
+} 
+
+.svg_filler{
+  width:30px;
+  height:45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.leaflet-div-icon{
+  border: none;
+  background: none;
+  transform: translateY(-20px);
+}
+
+.leaflet-div-icon-wraper{
+  width:30px;
+  height:45px;
+  transform: translateX(-30%) translateY(-70%);
+}
+
+
+@media (max-width:888px){
+  .emissions-container{
+    width: 100%;
+    overflow: scroll;
+  }
+}

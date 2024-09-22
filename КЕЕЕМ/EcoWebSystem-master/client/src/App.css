@@ -1,0 +1,21 @@
+ul {
+  list-style-type: none;
+}
+
+img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.App {
+  text-align: center;
+}
+
+.carousel {
+  height: 300px;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: calc(100vh - 105px);
+}
